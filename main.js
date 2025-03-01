@@ -66,5 +66,5 @@ restartBtn.addEventListener("click", () => {
   cells.forEach((cell) => {
     cell.textContent = "";
   });
-  statusText.textContent = `${currentPlayer}'s turn`;
+  gamestarts();
 });
